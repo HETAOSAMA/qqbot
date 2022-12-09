@@ -9,6 +9,7 @@ universal: ws//127.0.0.1:8765/onebot/v11/ws/
 ```
 如果遇到服务器部署go-cqhttp登陆问题的话先本地部署一个，用扫码登陆，然后将里面的session.token，device.json还有data文件夹替换进去
 ```
+我的python版本为3.10.6(3.8.X应该都可以)
 依赖版本
 nb-cli                     0.6.8
 nonebot-adapter-cqhttp     2.0.0a16
@@ -22,6 +23,7 @@ chatgpt的配置在plugins chatgpt_bot.py里
 想用其他的如账号密码的话看revChatGPT wiki(里面有怎样获取session_token方法)
 https://github.com/acheong08/ChatGPT/wiki
 ```
+配置完成直接python bot.py就可以
 ## How to start
 
 1. generate project using `nb create` .
