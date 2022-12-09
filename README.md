@@ -1,4 +1,12 @@
 # qqbot
+# 已对接chatgpt 使用/chatgpt 加上你要提问等问题
+# go-cqhttp用的v1.0.0-rc3
+配置时选用反向ws
+config反向ws配置为
+```
+universal: ws//127.0.0.1:8765/onebot/v11/ws/
+```
+如果遇到服务器部署go-cqhttp登陆问题的话先本地部署一个，用扫码登陆，然后将里面的session.token，device.json还有data文件夹替换进去
 ```
 依赖版本
 nb-cli                     0.6.8
