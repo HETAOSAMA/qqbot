@@ -1,5 +1,5 @@
 # qqbot
-
+```
 依赖版本
 nb-cli                     0.6.8
 nonebot-adapter-cqhttp     2.0.0a16
@@ -12,7 +12,7 @@ revChatGPT                 0.0.32.1
 chatgpt的配置在plugins chatgpt_bot.py里
 想用其他的如账号密码的话看revChatGPT wiki(里面有怎样获取session_token方法)
 https://github.com/acheong08/ChatGPT/wiki
-
+```
 ## How to start
 
 1. generate project using `nb create` .
