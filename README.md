@@ -1,6 +1,7 @@
 # qqbot
-# 已对接chatgpt 使用/chatgpt 加上你要提问等问题
-# go-cqhttp用的v1.0.0-rc3
+# 对你有用的话点个star呗
+## 已对接chatgpt 使用/chatgpt 加上你要提问等问题
+## go-cqhttp用的v1.0.0-rc3
 配置时选用反向ws
 config反向ws配置为
 ```
